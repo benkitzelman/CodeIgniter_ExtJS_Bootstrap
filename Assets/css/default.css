@@ -1,0 +1,29 @@
+.flash,.ErrorPanel {
+	border: 1px solid red;
+	background: #FFCFCF;
+	color: red;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+}
+
+.flash.failure {
+	border: 1px solid red;
+	background: #FFCFCF;
+	color: red;
+}
+
+.flash.failure a, .ErrorPanel a{
+	color:red;
+	text-decoration:underline;
+}
+
+.flash.success {
+	border: 1px solid green;
+	background: #D2FFCF;
+	color: green;
+}
+.flash.success a {
+	color:green;
+	text-decoration:underline;
+}

@@ -1,0 +1,71 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: tahoma, arial;
+	font-size: 12px;
+	background-image: url(/assets/images/bg_stripe.jpg);
+	background-repeat: repeat-x;
+}
+
+#ContentPanel {
+	width: 70%;
+	position: relative;
+	margin: auto;
+}
+
+h1 {
+	background: navy;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 10px;
+}
+
+#Menu {
+	background: navy;
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+#Menu a {
+	color: #FFFFFF;
+}
+
+#Menu a:hover {
+	color: lightblue;
+}
+
+#Tests {
+	border: 1px solid navy;
+	padding: 10px;
+	background: #FFFFFF;
+}
+
+.TestResult {
+	width: 50px;
+	height: 17px;
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+}
+
+.TestLineNumber {
+	display: inline-block;
+	border-bottom: 1px dotted gray;
+	right: 10%;
+	position: absolute;
+	width: 78%;
+	text-align: right;
+}
+
+.Passed {
+	background: green;
+}
+
+.Failed {
+	background: red;
+}
+
+.error {
+	color: red;
+}

@@ -1,0 +1,12 @@
+Group:
+  Administrator:
+    username: Administrator
+    description: An Organisation Supervisor
+    
+  Respondant:
+    username: Respondant
+    description: A Tested Subject
+    
+  SuperUser:
+    username: SuperUser
+    description: A System Adminstrator
